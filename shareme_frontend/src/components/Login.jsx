@@ -20,7 +20,7 @@ const Login = () => {
     client.createIfNotExists(doc).then(() => {
       navigate('/', { replace: true });
     });
-  }
+  };
   return (
     <div className='flex-justify-start items-center flex-col h-screen'>
       <div className="relative w-full h-full">
