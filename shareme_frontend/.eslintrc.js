@@ -3,10 +3,10 @@ module.exports = {
       browser: true,
       es6: true,
     },
-    extends: [
+    "eslintConfig":{extends: [
       'plugin:react/recommended',
       'airbnb',
-    ],
+    ]},
     globals: {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly',
