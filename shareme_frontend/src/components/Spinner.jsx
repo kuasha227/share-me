@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Loader from "react-loader-spinner";
 
-function Spinner({ message }) {
+export function Spinner({ message }) {
   return (
     <div className="flex flex-col justify-center items-center w-full h-full">
       <Loader
