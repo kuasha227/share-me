@@ -216,3 +216,4 @@ export const categories = [
     }`;
     return query;
   };
+  export default categories;
